@@ -1,80 +1,93 @@
 import { Link } from 'react-router-dom'
+import menu from './../assets/icons/menu_green.png'
+import search from './../assets/icons/search.png'
+import bell from './../assets/icons/bell.png'
 import editor_image from './../assets/images/editor_image.png'
 import users from './../assets/icons/users.png'
 import pad from './../assets/icons/pad.png'
+import balls from './../assets/icons/balls.png'
 import pie from './../assets/icons/pie.png'
 import bar from './../assets/icons/bar.png'
 import shop from './../assets/icons/shop.png'
-import { Homenavbar } from '../components/homenavbar'
-import user from './../assets/icons/user.svg'
+import arrow from './../assets/icons/arrow_right_dark.png'
 
 export const Homesignedin = () => {
     return (
-        <div className='relative sm:h-50 sm:w-full sm:bg-white'>
-            <Homenavbar />
+        <div className='relative sm:h-65 sm:w-full sm:bg-white'>
+            <div className='border border-gray sm:h-8 sm:w-full'>
+                <img src={menu} alt="" className='relative sm:mt-4 sm:ml-4' />
+                <img src={search} alt="" className='relative sm:-mt-5 sm:ml-8' />
+                <img src={bell} alt="" className='relative sm:-mt-5 sm:ml-19.5' />
+                <div className='relative sm:-mt-5 sm:ml-20.8 sm:h-5 sm:w-5 sm:bg-gray-light rounded-full'></div>
+            </div>
+
             <div>
-                <h3 className='absolute sm:mt-15.8 sm:ml-4.51 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Editor's Note</h3>
-                <div className='flex overflow-scroll scroll-smooth sm:w-22'>
-                <Link to='/editornote'><div className='relative sm:mt-17 sm:ml-4.51 sm:h-16.6 sm:w-15.6 sm:bg-white shadow-xl rounded-xl'>
-                <img src={editor_image} alt="" className='relative sm:mt-5 sm:ml-0 sm:h-13 rounded-t-xl' />
-                <p className='relative sm:mt-1.2 sm:ml-2 font-medium sm:text-left sm:text-dark sm:text-xss font-montserrat sm:min-w-11 sm:max-w-19.6'>How to Place a Bet Like a Pro Safely Without b...</p>
-                <img src={user} alt="" className='relative sm:mt-1 sm:ml-2' />
-                <h3 className='sm:-mt-2.5 sm:ml-6 font-medium sm:text-left sm:text-gray sm:text-sm sm:font-semibold'>Cee Green</h3>
+                <Link to='/editornote'><div className='relative sm:mt-4 sm:ml-4.51 sm:h-16.6 sm:w-20.8 sm:bg-white shadow-xl rounded-xl'>
+                <img src={editor_image} alt="" className='relative sm:mt-0 sm:ml-0 rounded-t-xl' />
+                <div className='relative sm:mt-3 sm:ml-3 sm:h-6.3 sm:w-6.3 sm:bg-gray-light rounded-full'></div>
+                <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Editor's Note</h3>
+                <p className='relative sm:mt-1 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-sm font-montserrat'>Lorem ipsum dolor siet ggdunt eg...</p>
                 </div></Link>
-
-                <Link to='/editornote'><div className='relative sm:mt-17 sm:ml-4.51 sm:h-16.6 sm:w-15.6 sm:bg-white shadow-xl rounded-xl'>
-                <img src={editor_image} alt="" className='relative sm:mt-5 sm:ml-0 sm:h-13 rounded-t-xl' />
-                <p className='relative sm:mt-1.2 sm:ml-2 font-medium sm:text-left sm:text-dark sm:text-xss font-montserrat sm:min-w-11 sm:max-w-19.6'>How to Place a Bet Like a Pro Safely Without b...</p>
-                <img src={user} alt="" className='relative sm:mt-1 sm:ml-2' />
-                <h3 className='sm:-mt-2.5 sm:ml-6 font-medium sm:text-left sm:text-gray sm:text-sm sm:font-semibold'>Cee Green</h3>
-                </div></Link>
-
-                <Link to='/editornote'><div className='relative sm:mt-17 sm:ml-4.51 sm:h-16.6 sm:w-15.6 sm:bg-white shadow-xl rounded-xl'>
-                <img src={editor_image} alt="" className='relative sm:mt-5 sm:ml-0 sm:h-13 rounded-t-xl' />
-                <p className='relative sm:mt-1.2 sm:ml-2 font-medium sm:text-left sm:text-dark sm:text-xss font-montserrat sm:min-w-11 sm:max-w-19.6'>How to Place a Bet Like a Pro Safely Without b...</p>
-                <img src={user} alt="" className='relative sm:mt-1 sm:ml-2' />
-                <h3 className='sm:-mt-2.5 sm:ml-6 font-medium sm:text-left sm:text-gray sm:text-sm sm:font-semibold'>Cee Green</h3>
-                </div></Link>
-                </div>
             </div>
 
             <div>
                 <h3 className='relative sm:mt-5.2 sm:ml-4.51 sm:text-left sm:font-bold sm:text-sm'>Categories</h3>
-                <div className='flex sm:flex-wrap'>
-                    <Link to='/bettadawg'><div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-15 sm:bg-white border rounded-xl'>
-                        <img src={users} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.3 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta Data</h3>
+                <div>
+                    <Link to='/bettadawg'><div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={users} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Dawg</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
                     </Link>
 
-                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-3 sm:h-8.1 sm:w-15 border rounded-xl'>
-                        <img src={pad} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.4 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta Gameplan</h3>
+                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={pad} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Gameplan</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
 
-                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-15 border rounded-xl'>
-                        <img src={pie} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.4 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta stats</h3>
+                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={balls} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Plays</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
 
-                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-3 sm:h-8.1 sm:w-15 border rounded-xl'>
-                        <img src={bar} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.4 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta Value</h3>
+                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={pie} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta stats</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
 
-                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-15 border rounded-xl'>
-                        <img src={shop} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.4 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta Trends</h3>
+                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={bar} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Value</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
 
-                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-3 sm:h-8.1 sm:w-15 border rounded-xl'>
-                        <img src={shop} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.4 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta Last Look</h3>
+                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={shop} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Trends</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
 
-                    <Link to='/bettadeepdive'><div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-15 border rounded-xl'>
-                        <img src={shop} alt="" className='relative sm:bg-green-very-light p-1.5 sm:mt-1 sm:ml-0.6 rounded-xl' />
-                        <h3 className='relative sm:-mt-5.4 sm:ml-7.7 font-semibold sm:text-left sm:text-dark sm:text-xsss font-montserrat'>Betta Deep Dive</h3>
+                    <div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={shop} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Last Look</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
+                    </div>
+
+                    <Link to='/bettadeepdive'><div className='relative sm:pt-0.1 sm:mt-4 sm:ml-4.51 sm:h-8.1 sm:w-20.8 sm:bg-green-very-light rounded'>
+                        <img src={shop} alt="" className='relative sm:bg-white p-1.5 sm:mt-1 sm:ml-1.5 rounded-xl' />
+                        <h3 className='relative sm:-mt-6.3 sm:ml-8.5 font-bold sm:text-left sm:text-dark sm:text-sm font-montserrat'>Betta Deep Dive</h3>
+                        <p className='relative sm:mt-0.5 sm:ml-8.5 font-medium sm:text-left sm:text-gray sm:text-xss font-montserrat'>Lorem ipsum dolor sit amet ggdunt egestas</p>
+                        <img src={arrow} alt="" className='relative sm:-mt-5.3 sm:ml-19.8' />
                     </div>
                     </Link>
                 </div>

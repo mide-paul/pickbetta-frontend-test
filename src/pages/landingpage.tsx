@@ -355,7 +355,7 @@ export const Landingpage = () => {
         </div>
 
         <div>
-          <div className="relative ss:ml-5 ss:mt-9 ss:h-19.5 ss:w-20.4  ss:rounded-2xl  sm:ml-5 sm:mt-9 sm:h-19.5 sm:w-20.4 bg-green sm:rounded-2xl    md:ml-5 md:mt-9 md:h-19.5 md:w-45 md:rounded-3xl      x:ml-10 x:mt-9 x:h-19.5 x:w-74 x:rounded-3xl          xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
+          <div className="relative ss:ml-5 ss:mt-9 ss:h-19.5 ss:w-20.4  ss:rounded-2xl    sm:ml-5 sm:mt-9 sm:h-19.5 sm:w-20.4 bg-green sm:rounded-2xl    md:ml-5 md:mt-9 md:h-19.5 md:w-45 md:rounded-3xl      x:ml-10 x:mt-9 x:h-19.5 x:w-74 x:rounded-3xl          xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
             <img
               src={faq_styled}
               className="absolute  ss:mt-0 ss:ml-19.17 ss:h-19.5 ss:rounded-tr-2xl    sm:mt-0 sm:ml-19.17 sm:h-19.5 sm:rounded-tr-2xl   md:ml-39 md:w-11 md:rounded-tr-3xl md:rounded-br-3xl       x:ml-68 x:w-11 x:rounded-tr-3xl x:rounded-br-3xl    xl:ml-66.2 xl:w-17 xl:rounded-tr-3xl xl:rounded-br-3xl"

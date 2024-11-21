@@ -1,62 +1,61 @@
 import faq_styled from "./../assets/images/faq_styled.png";
-
 export const Terms = () => {
   return (
     <div className="terms">
-      <div className="relative bg-green-light w-screen sm:h-19.3 sm:mt-3 xl:-mt-8">
-        <h3 className="relative sm:text-5xl sm:text-dark sm:font-extrabold sm:pt-11 sm:ml-5 sm:max-w-20 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-8 xl:pt-7 xl:ml-32 xl:font-g xl:max-w-32">
+      <div className="relative bg-green-light w-screen  ss:h-19.3 ss:mt-3   sm:h-19.3 sm:mt-3 xl:-mt-8">
+        <h3 className="relative  ss:text-2xl ss:text-dark-gray-900 ss:font-extrabold ss:pt-11 ss:ml-5 ss:max-w-20 ss:text-center      sm:text-3xl sm:text-dark sm:font-extrabold sm:pt-11 sm:ml-6 sm:max-w-20 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-8 xl:pt-7 xl:ml-32 xl:font-g xl:max-w-32">
           Terms & Conditions
         </h3>
-        <p className="relative sm:text-center sm:text-base sm:text-gray sm:mt-4 sm:ml-5 sm:max-w-20 font-montserrat xl:text-center xl:ml-37 xl:text-dark-gray-900 xl:mt-3">
+        <p className="relative  ss:text-center ss:text-base ss:text-gray ss:mt-4 ss:ml-5 ss:max-w-20       sm:text-center sm:text-base sm:text-gray sm:mt-4 sm:ml-4 sm:max-w-20 font-montserrat xl:text-center xl:ml-37 xl:text-dark-gray-900 xl:mt-3">
           Version 1.1 | September 2024
         </p>
       </div>
 
       <div className="flex  sm:flex-col sm:mt-4 sm:ml-7 sm:gap-3 xl:leading-7 xl:mt-13 xl:h-32 xl:w-24 xl:bg-green-light">
         <p
-          className="relative sm:mt-10 sm:text-left sm:text-base sm:text-green sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible   sm:mt-10 sm:text-left sm:text-base sm:text-green sm:max-w-12 font-montserrat
           xl:mt-6.5 xl:ml-6 xl:max-w-20 xl:text-green-deep xl:font-bold"
         >
           Nature of Products / Limitation of Liability
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Use / Copyright
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Account Registrations and Security
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Payment/Fees and Subscription Renewal
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative ss:invisible  sm:invisible  sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Disclosure and Removal of Information
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Consent to Electronic Communications and Solicitation
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible  sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Modifications to the Terms and Conditions
         </p>
         <p
-          className="relative sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
+          className="relative  ss:invisible  sm:invisible  sm:text-left sm:text-base sm:text-dark sm:max-w-12 font-montserrat
           xl:ml-6 xl:max-w-20"
         >
           Entire Agreement
@@ -64,8 +63,10 @@ export const Terms = () => {
       </div>
 
       <div>
-        <h3 className="relative sm:ml-16 sm:-mt-46.5 sm:font-bold sm:text-left xl:text-xl xl:-mt-32 xl:mr-44.5 xl:text-right">Our Terms & Conditions</h3>
-        <p className="relative sm:ml-16 sm:mt-5 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:mt-5 xl:text-1xl xl:text-gray-light xl:max-w-70">
+        <h3 className="relative  ss:invisible  sm:invisible  sm:ml-16 sm:-mt-46.5 sm:font-bold sm:text-left xl:text-xl xl:-mt-32 xl:mr-44.5 xl:text-right">
+          Our Terms & Conditions
+        </h3>
+        <p className="relative  ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22    sm:ml-5 sm:-mt-5 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat xl:ml-30 xl:mt-5 xl:text-1xl xl:text-gray-light xl:max-w-70">
           <p className="relative">
             PickBetta is a service provided by [Company Name], a subsidiary of
             [Parent Company Name], and PickBetta (“PickBetta”). By using the
@@ -75,7 +76,7 @@ export const Terms = () => {
             discontinue your use of the website and any of our features,
             services, or products immediately.
           </p>
-          <p className="relative xl:mt-10">
+          <p className="relative ss:mt-8 sm:mt-10  xl:mt-10">
             For the purposes of this Agreement: i) the “Website” shall mean the
             site PickBetta.com; ii) “Products” shall collectively mean all
             publications, tables, commentary, information, and/or instructions
@@ -89,10 +90,10 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
+        <h3 className="relative ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20        sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28    font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
           1. Nature of Products / Limitation of Liability
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat xl:ml-30  xl:text-xl xl:text-gray-light xl:max-w-80 xl:text-left">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 xl:ml-30  xl:text-xl xl:text-gray-light xl:max-w-80 xl:text-left">
           ALL PRODUCTS (AS DEFINED ABOVE) AND SERVICES (AS DEFINED ABOVE) ARE
           PROVIDED “AS-IS.” WE DO NOT PROVIDE ANY EXPRESS OR IMPLIED WARRANTIES
           OF MERCHANTABILITY, SUITABILITY, OR COMPLETENESS FOR ANY OF THE
@@ -116,11 +117,11 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 font-bold text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-2xl">
+        <h3 className="relative  ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20    sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-2xl">
           2. Use / Copyright
         </h3>
         <p
-          className="relative sm:ml-16 sm:mt-4 text-left text-base sm:text-dark sm:max-w-13 font-montserrat
+          className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-base ss:text-gray-light ss:max-w-22 ss:mt-6   sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat
           xl:ml-30  xl:text-1xl xl:text-gray-light xl:max-w-70"
         >
           The Products are for private use only (or for use on behalf of one
@@ -131,12 +132,12 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
+        <h3 className="relative ss:ml-5 ss:mt-5 ss:font-bold ss:text-left ss:text-sm ss:text-dark-gray-900 ss:max-w-20    sm:ml-5 sm:mt-5 sm:font-bold sm:text-left sm:text-sm sm:text-dark-gray sm:max-w-20 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
           <span className="text-3xl -pb-2">.</span> Product Use Outside of
           Defined Area
         </h3>
         <p
-          className="relative sm:ml-16 sm:mt-4 text-left text-base sm:text-dark sm:max-w-13 font-montserrat
+          className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5 sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat
           xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-61 xl:mt-5 xl:text-left"
         >
           We make no representations and give no warranties, express or implied,
@@ -159,11 +160,11 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 font-bold sm:text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
+        <h3 className="relative ss:ml-5 ss:mt-5 ss:font-bold ss:text-left ss:text-sm ss:text-dark-gray-900 ss:max-w-20    sm:ml-5 sm:mt-5 sm:font-bold sm:text-left sm:text-sm sm:text-dark-gray sm:max-w-20  font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
           <span className="text-3xl -pb-2">.</span> No Unlawful or Prohibited
           Use
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-61 xl:mt-5 xl:text-left xl:leading-10">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5   sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-61 xl:mt-5 xl:text-left xl:leading-10">
           <p className="relative xl:mt-10">
             You agree not to use the Website, its Products, and/or its Services
             for any unlawful purpose or as prohibited by our terms, conditions,
@@ -222,7 +223,7 @@ export const Terms = () => {
             PickBetta or others.
           </p>
         </p>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-10 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5    sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-10 xl:text-left ">
           All judgments concerning the applicability of these guidelines shall
           be at the sole and exclusive discretion of PickBetta. PickBetta
           reserves the right, in its sole discretion, to determine whether and
@@ -232,10 +233,10 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 font-bold text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
+        <h3 className="relative ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20  sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
           3. Account Registrations and Security
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6 sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           Access to some of the Services, such as the Subscription Service,
           requires registration and the payment of a fee. In order to register,
           you agree to provide us with accurate and up-to-date information. You
@@ -251,19 +252,19 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
+        <h3 className="relative ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20   sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
           4. Payment/Fees and Subscription Renewal
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           We reserve the right to change the Subscription Service’s fees or
           applicable charges and to institute new charges at any time.
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
+        <h3 className="relative ss:ml-5 ss:mt-5 ss:font-bold ss:text-left ss:text-sm ss:text-dark-gray-900 ss:max-w-20    sm:ml-5 sm:mt-5 sm:font-bold sm:text-left sm:text-sm sm:text-dark-gray sm:max-w-20  font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
           <span className="text-3xl -pb-2">.</span> Account Cancellation
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           If your account is paid in full, you may cancel your account and
           terminate this Agreement. We recommend exporting or saving any
           important documents and data because you will lose access to all
@@ -271,11 +272,11 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
+        <h3 className="relative ss:ml-5 ss:mt-5 ss:font-bold ss:text-left ss:text-sm ss:text-dark-gray-900 ss:max-w-20    sm:ml-5 sm:mt-5 sm:font-bold sm:text-left sm:text-sm sm:text-dark-gray sm:max-w-20  font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
           <span className="text-3xl -pb-2">.</span> Termination and Access
           Restriction
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           The rights granted by PickBetta to use the Subscription Services are
           predicated upon a user’s: a) acknowledgment and acceptance of these
           Terms and Conditions of Use; b) payment for the access granted; and c)
@@ -298,20 +299,20 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
+        <h3 className="relative ss:ml-5 ss:mt-5 ss:font-bold ss:text-left ss:text-sm ss:text-dark-gray-900 ss:max-w-20  sm:ml-5 sm:mt-5 sm:font-bold sm:text-left sm:text-sm sm:text-dark-gray sm:max-w-20  font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
           <span className="text-3xl -pb-2">.</span> Refund of Charges
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           Except as specifically set forth in this section, all Subscription
           Services are prepaid. To cancel a current subscription and request a
           refund for the unused portion, call [Phone Number].
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
+        <h3 className="relative  ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20  sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
           5. Disclosure and Removal of Information
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative  ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           We will not disclose any of your personal information to third parties
           without your permission except in the following circumstances:,
           <br />
@@ -323,10 +324,10 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-48 xl:mt-8 xl:text-2xl">
+        <h3 className="relative   ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20  sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-48 xl:mt-8 xl:text-2xl">
           6. Consent to Electronic Communications and Solicitation
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           By registering with PickBetta, you understand that we may send you
           communications from PickBetta including but not limited to:
           <br />
@@ -342,10 +343,10 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
+        <h3 className="relative  ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20   sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
           7. Third-Party Content, Sites, and Services
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6   sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           The Website may contain links to other Internet sites, resources,
           and/or sponsors of the Website. We do not verify, warrant, endorse, or
           take responsibility for the availability, accuracy, completeness, or
@@ -362,20 +363,20 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
+        <h3 className="relative ss:ml-5 ss:mt-5 ss:font-bold ss:text-left ss:text-sm ss:text-dark-gray-900 ss:max-w-20   sm:ml-5 sm:mt-5 sm:font-bold sm:text-left sm:text-sm sm:text-dark-gray sm:max-w-20  font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-gray-light">
           <span className="text-3xl -pb-2">.</span> Assignment
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-5  sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           Except as specifically set forth in this section, all Subscription
           Services are prepaid. To cancel a current subscription and request a
           refund for the unused portion, call [Phone Number].
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
+        <h3 className="relative ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20   sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28font-montserrat xl:ml-30 xl:max-w-38 xl:mt-8 xl:text-2xl">
           8. Modifications to the Terms and Conditions
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
+        <p className="relative  ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6 sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:text-left ">
           We may alter these Terms and Conditions of Use from time to time and
           post the new version on our Website, following which all use of the
           Website, Services, and Products will be governed by that version. You
@@ -383,10 +384,10 @@ export const Terms = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-16 sm:mt-5 sm:font-bold sm:text-left sm:text-xl text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-2xl">
+        <h3 className="relative  ss:ml-5 ss:mt-8 ss:font-bold ss:text-left ss:text-xl ss:text-dark-gray-900 ss:max-w-20   sm:ml-5 sm:mt-8 sm:font-bold sm:text-left sm:text-xl sm:text-dark-gray-900 sm:max-w-28 font-montserrat xl:ml-30 xl:max-w-30 xl:mt-8 xl:text-2xl">
           9. Entire Agreement
         </h3>
-        <p className="relative sm:ml-16 sm:mt-4 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:mb-15 xl:text-left ">
+        <p className="relative ss:ml-5 ss:mt-0 ss:text-left ss:text-sm ss:text-gray-light ss:max-w-22 ss:mt-6     sm:ml-5 sm:mt-6 sm:text-left sm:text-sm sm:text-gray-light sm:max-w-22 font-montserrat  xl:ml-30 xl:text-1xl xl:text-gray-light xl:max-w-58 xl:mt-5 xl:mb-15 xl:text-left ">
           These Terms and Conditions of Use, together with our Privacy Policy,
           any product disclaimers, and any payment method instructions, if any,
           constitute the entire agreement between you and us. You acknowledge
@@ -400,21 +401,20 @@ export const Terms = () => {
           method instructions.
         </p>
       </div>
-
       <div>
-        <div className="relative sm:ml-5 sm:mt-9 sm:h-19.5 sm:w-20.4 bg-green sm:rounded-2xl xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
+        <div className="relative ss:ml-2 ss:mr-3 ss:mt-9 ss:h-19.4 ss:w-19.6  ss:rounded-2xl    sm:ml-3 sm:mt-9 sm:h-19.5 sm:w-24 bg-green sm:rounded-2xl    md:ml-5 md:mt-9 md:h-19.5 md:w-45 md:rounded-3xl      x:ml-8 x:mt-9 x:h-19.5 x:w-76 x:rounded-3xl          xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
           <img
             src={faq_styled}
-            className="absolute sm:mt-0 sm:ml-19.17 sm:h-19.5 sm:rounded-tr-2xl xl:ml-66.2 xl:w-17 xl:rounded-tr-3xl xl:rounded-br-3xl"
+            className="absolute  ss:mt-0 ss:ml-17.7 ss:h-19.4 ss:rounded-tr-3xl ss:rounded-br-3xl    sm:mt-0 sm:ml-20 sm:h-19.5 sm:rounded-tr-3xl   md:ml-39 md:w-11 md:rounded-tr-3xl md:rounded-br-3xl       x:ml-70 x:w-11 x:rounded-tr-3xl x:rounded-br-3xl    xl:ml-66.2 xl:w-17 xl:rounded-tr-3xl xl:rounded-br-3xl"
           />
-          <h3 className="relative sm:pt-8 sm:ml-4 sm:max-w-16 text-left text-white sm:text-xl font-bold font-montserrat xl:text-5xl xl:pt-8 xl:ml-10 xl:max-w-55">
+          <h3 className="relative ss:pt-8 ss:ml-4 ss:max-w-16 ss:text-left  ss:text-xl   sm:pt-8 sm:ml-4 sm:max-w-16 text-left text-white sm:text-xl font-bold font-montserrat x:text-4xl x:pt-8 x:ml-10 x:max-w-55    xl:text-5xl xl:pt-8 xl:ml-10 xl:max-w-55">
             Get PickBetta for just $10 a week
           </h3>
-          <p className="relative sm:pt-3 sm:ml-4 sm:max-w-19.3 text-left text-white sm:text-base font-medium font-montserrat xl:pt-3 xl:ml-10 xl:max-w-50 xl:text-xl">
+          <p className="relative ss:pt-3 ss:ml-3 ss:max-w-19.1  ss:text-base    sm:pt-3 sm:ml-4 sm:max-w-19.3 text-left text-white sm:text-base font-medium font-montserrat xl:pt-3  x:ml-10 x:max-w-50 x:text-xl   xl:ml-10 xl:max-w-50 xl:text-xl">
             Your first week is always free. Start your trial now and see the
             difference!
           </p>
-          <button className="relative sm:p-2 sm:w-13 sm:ml-4 sm:mt-4 float-left font-bold text-green bg-white rounded font-montserrat xl:p-2 xl:w-17 xl:ml-10 xl:mt-4">
+          <button className="relative ss:p-2 ss:w-13 ss:ml-4 ss:mt-4   sm:p-2 sm:w-13 sm:ml-4 sm:mt-4 float-left font-bold text-green bg-white rounded font-montserrat x:p-2 x:w-17 x:ml-10 x:mt-4     xl:p-2 xl:w-17 xl:ml-10 xl:mt-4">
             Start Now!
           </button>
         </div>

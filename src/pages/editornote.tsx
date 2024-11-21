@@ -5,7 +5,7 @@ import editor_image from './../assets/images/editor_image.png'
 export const Editornote = () => {
     return (
         <div className='relative sm:h-65 sm:w-full sm:bg-white'>
-            <div className='border border-gray sm:bg-green sm:h-8 sm:w-full'>
+            <div className='border border-gray sm:h-8 sm:w-full'>
             <Link to='/homesignedin'><img src={arrow} alt="" className='relative sm:mt-4 sm:ml-4' /></Link>
             <h3 className='relative sm:-mt-4.7 font-bold sm:text-center sm:text-dark sm:text-base font-montserrat'>Editor's Note</h3>
             </div>

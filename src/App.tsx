@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate, } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -36,44 +36,9 @@ import { Nfldeepdive } from "./pages/deepdive/nfldeepdive";
 import { Bettadawg } from "./pages/bettadawg";
 import ScrollToTop from "./components/scrolltotop";
 import { Verifyemail } from "./pages/verifyemail";
-import { Toaster } from "react-hot-toast";
-// import { useAuthStore } from "./store/authStore";
-// import { useEffect } from "react";
-// import LoadingSpinner from "./components/LoadingSpinner";
 
-// const ProtectedRoute = ({ children }) => {
-// 	const { isAuthenticated, user } = useAuthStore();
-
-// 	if (!isAuthenticated) {
-// 		return <Navigate to='/login' replace />;
-// 	}
-
-// 	if (!user.isVerified) {
-// 		return <Navigate to='/verify-email' replace />;
-// 	}
-
-// 	return children;
-// };
-
-//  const RedirectAuthenticatedUser = ({ children }) => {
-//  	const { isAuthenticated, user } = useAuthStore();
-
-//  	if (isAuthenticated && user.isVerified) {
-//  		return <Navigate to='/homesignedin' replace />;
-//  	}
-
-//  	return children;
-//  };
 
 function App() {
-
-  // const { isCheckingAuth, checkAuth } = useAuthStore();
-
-	// useEffect(() => {
-	// 	checkAuth();
-	// }, [checkAuth]);
-
-	// if (isCheckingAuth) return<LoadingSpinner />;
   
   return (
 
@@ -111,9 +76,7 @@ function App() {
             <Route path="/nfldeepdive" element={<Nfldeepdive />} />
             <Route path="/bettadawg" element={<Bettadawg />} />
             <Route path="/verifyemail" element={<Verifyemail />} />
-            <Route path="*" element={<Navigate to='/' replace />} />
           </Routes>
-          <Toaster />
           <Footer />
         </Router>
       </div>

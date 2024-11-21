@@ -14,8 +14,6 @@ export const Footer = () => {
   if (pathname === "/signup") return null;
   if (pathname === "/login") return null;
   if (pathname === "/verifyemail") return null;
-  if (pathname === "/homesignedin") return null;
-  if (pathname === "/editornote") return null;
   
     return (
       <div>
