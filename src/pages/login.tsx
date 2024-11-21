@@ -241,7 +241,7 @@ export const Login = () => {
           <h3 className="absolute   ss:ml-6.2 ss:mt-4 ss:text-sm  ss:text-left       sm:ml-6.2 sm:mt-4 sm:text-sm  sm:text-left  text-dark font-montserrat">
             Remember me
           </h3>
-          <h3 className="absolute   ss:ml-19 ss:mt-4 ss:font-semibold ss:text-sm ss:text-green ss:cursor-pointer ss:underline      sm:ml-19 sm:mt-4 sm:font-semibold sm:text-sm sm:text-green sm:cursor-pointer sm:underline font-montserrat">
+          <h3 className="absolute   ss:ml-16 ss:mt-4 ss:font-semibold ss:text-sm ss:text-green ss:cursor-pointer ss:underline      sm:ml-19 sm:mt-4 sm:font-semibold sm:text-sm sm:text-green sm:cursor-pointer sm:underline font-montserrat">
             Forgot Password?
           </h3>
         </div>
@@ -249,7 +249,7 @@ export const Login = () => {
         <button
           type="button"
           onClick={userLogin}
-          className="relative   ss:mt-8 ss:ml-4 ss:h-6.4 ss:w-19.4 ss:bg-green ss:text-white ss:text-base ss:rounded ss:disabled:bg-gray ss:disabled:text-white       sm:mt-8 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 sm:bg-green sm:text-white sm:text-base sm:rounded sm:disabled:bg-gray sm:disabled:text-white font-montserrat"
+          className="relative   ss:mt-8 ss:ml-1 ss:h-6.4 ss:w-19.4 ss:bg-green ss:text-white ss:text-base ss:rounded ss:disabled:bg-gray ss:disabled:text-white       sm:mt-8 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 sm:bg-green sm:text-white sm:text-base sm:rounded sm:disabled:bg-gray sm:disabled:text-white font-montserrat"
           disabled={login == null}
         >
           Login
@@ -260,20 +260,20 @@ export const Login = () => {
         <img
           src={line}
           alt=""
-          className="absolute   ss:mt-2 ss:ml-4 ss:h-0.1 ss:w-12.1     sm:mt-2 sm:ml-4 sm:h-0.1 sm:w-12.1"
+          className="absolute   ss:mt-2 ss:ml-4 ss:h-0.1 ss:w-11     sm:mt-2 sm:ml-4 sm:h-0.1 sm:w-12.1"
         />
-        <h3 className="relative  ss:mt-5  ss:text-sm  ss:text-gray       sm:mt-5  sm:text-sm  sm:text-gray font-montserrat">
+        <h3 className="relative  ss:mt-5  ss:ml-4 ss:text-sm  ss:text-gray       sm:mt-5  sm:text-sm  sm:text-gray font-montserrat">
           or, login using
         </h3>
         <img
           src={line}
           alt=""
-          className="absolute    ss:-mt-1 ss:ml-17.7 ss:h-0.1 ss:w-11.9       sm:-mt-1 sm:ml-17.7 sm:h-0.1 sm:w-11.9"
+          className="absolute    ss:-mt-1 ss:ml-17 ss:h-0.1 ss:w-11.9       sm:-mt-1 sm:ml-17.7 sm:h-0.1 sm:w-11.9"
         />
       </div>
 
       <div className="flex gap-1">
-        <div className=" ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border ss:rounded         sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
+        <div className=" ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border  ss:border-gray  ss:rounded         sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
           <img
             src={google}
             alt=""
@@ -281,7 +281,7 @@ export const Login = () => {
           />
         </div>
 
-        <div className="ss:h-6.4 ss:w-11 ss:mt-5  ss:ml-4 ss:bg-white ss:border ss:rounded    sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
+        <div className="ss:h-6.4 ss:w-11 ss:mt-5  ss:ml-4 ss:bg-white ss:border  ss:border-gray  ss:rounded    sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
           <img
             src={facebook}
             alt=""
@@ -289,7 +289,7 @@ export const Login = () => {
           />
         </div>
 
-        <div className="ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border ss:rounded     sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
+        <div className="ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border ss:border-gray ss:rounded     sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
           <img
             src={apple}
             alt=""
