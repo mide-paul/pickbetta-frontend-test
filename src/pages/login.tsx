@@ -281,7 +281,7 @@ export const Login = () => {
           />
         </div>
 
-        <div className="ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border ss:rounded    sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
+        <div className="ss:h-6.4 ss:w-11 ss:mt-5  ss:ml-4 ss:bg-white ss:border ss:rounded    sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded">
           <img
             src={facebook}
             alt=""
