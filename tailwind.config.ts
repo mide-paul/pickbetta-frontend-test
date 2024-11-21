@@ -8,10 +8,11 @@ export default {
     
   ],
   prefix: "",
-  theme: {
+  theme: { 
     screens: {
       ss: "320px", // small screen
       sm: "375px", // medium screen
+      mm: "",  // mobile medium
       md: "768px", // tablet screen
       // lg: "976px", 
       x:  "1024px", // laptop medium

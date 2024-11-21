@@ -16,7 +16,7 @@ export const Landingpage = () => {
       <div className="home">
         <div>
           <h3 className="relative ss:mt-11 ss:ml-5 ss:max-w-19.7 ss:text-center ss:text-4xl sm:text-center sm:text-4xl text-dark font-extrabold font-montserrat sm:mt-11 sm:ml-5 sm:max-w-20xl   md:mt-11 md:ml-14 md:max-w-30 md:text-center   x:ml-10 x:mt-10  x:text-3xl x:max-w-40 x:text-left x:leading-18               xl:ml-10  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20  ">
-            Your ultimate source for{" "}
+            Your ultimate source for{" "} 
             <span className="ss:italic ss:text-green-deep ss:underline sm:italic  sm:text-green-deep sm:underline xl:font-medium">
               {" "}
               fact-checked{" "}
