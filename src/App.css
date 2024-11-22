@@ -258,6 +258,14 @@ body {
   height: 4490px;
   overflow: hidden;
 }
+
+ .about {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 5100px;
+  overflow: hidden;
+  }
 }
 
 
