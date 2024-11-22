@@ -273,7 +273,7 @@ export const Login = () => {
       </div>
 
       <div className="flex gap-1">
-        <div className=" ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border  ss:border-gray  ss:rounded  sm:border-gray       sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded   mm:h-6.4 mm:w-11 mm:mt-5 mm:ml-4 mm:bg-white mm:border mm:rounded mm:border-gray      md:h-6.4 md:w-11 md:mt-5 md:ml-16 md:bg-white md:border md:border-gray md:rounded ">
+        <div className=" ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border  ss:border-gray  ss:rounded  sm:border-gray       sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded   mm:h-6.4 mm:w-11 mm:mt-5 mm:ml-4 mm:bg-white mm:border mm:rounded mm:border-gray      md:h-6.4 md:w-11 md:mt-5 md:ml-15 md:bg-white md:border md:border-gray md:rounded ">
           <img
             src={google}
             alt=""
@@ -281,7 +281,7 @@ export const Login = () => {
           />
         </div>
 
-        <div className="ss:h-6.4 ss:w-11 ss:mt-5  ss:ml-4 ss:bg-white ss:border  ss:border-gray  ss:rounded    sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded  mm:w-11 mm:mt-5 mm:ml-4 mm:bg-white mm:border mm:rounded   ">
+        <div className="ss:h-6.4 ss:w-11 ss:mt-5  ss:ml-4 ss:bg-white ss:border  ss:border-gray  ss:rounded    sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded  mm:w-11 mm:mt-5 mm:ml-4 mm:bg-white mm:border    md:w-11 md:mt-5 md:ml-7 md:bg-white md:border   mm:rounded   ">
           <img
             src={facebook}
             alt=""
@@ -289,7 +289,7 @@ export const Login = () => {
           />
         </div>
 
-        <div className="ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border ss:border-gray ss:rounded     sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded  mm:h-6.4 mm:w-11 mm:mt-5 mm:ml-4 mm:bg-white mm:border mm:rounded    md:h-6.4 md:w-11 md:mt-5 md:ml-4 md:bg-white md:border md:rounded  ">
+        <div className="ss:h-6.4 ss:w-11 ss:mt-5 ss:ml-4 ss:bg-white ss:border ss:border-gray ss:rounded     sm:h-6.4 sm:w-11 sm:mt-5 sm:ml-4 sm:bg-white sm:border sm:rounded  mm:h-6.4 mm:w-11 mm:mt-5 mm:ml-4 mm:bg-white mm:border mm:rounded    md:h-6.4 md:w-11 md:mt-5 md:ml-7 md:bg-white md:border md:rounded  ">
           <img
             src={apple}
             alt=""
@@ -299,7 +299,7 @@ export const Login = () => {
       </div>
 
       <div>
-        <h3 className="relative   ss:mt-6 ss:ml-3 ss:text-dark ss:text-x         sm:mt-6 sm:-ml-3 sm:text-dark sm:text-x   mm:mt-6 mm:-ml-3 mm:text-dark mm:text-x   md:mt-6 md:-ml-7 md:text-dark md:text-x   font-montserrat">
+        <h3 className="relative   ss:mt-6 ss:ml-3 ss:text-dark ss:text-x         sm:mt-6 sm:-ml-3 sm:text-dark sm:text-x   mm:mt-6 mm:-ml-3 mm:text-dark mm:text-x   md:mt-6 md:-ml-8 md:text-dark md:text-x   font-montserrat">
           New to PickBetta?
           <span className=" ss:text-green ss:font-semibold ss:cursor-pointer   sm:text-green sm:font-semibold sm:cursor-pointer">
             <Link to="/signup"> Create Account</Link>
