@@ -149,12 +149,12 @@ export const Signup = () => {
   }
 
   return (
-    <div className="sm:h-60 w-full bg-gray-white overflow-hidden">
+    <div className="  ss:h-60 ss:w-full ss:bg-gray-white ss:overflow-hidden    sm:h-60 sm:w-full sm:bg-gray-white sm:overflow-hidden  mm:h-60 mm:w-full mm:bg-gray-white mm:overflow-hidden  md:h-60 md:w-full md:bg-gray-white md:overflow-hidden   ">
       <div>
         <img
           src={logo}
           alt=""
-          className="absolute ss:mt-3 ss:ml-2 ss:z-10 sm:mt-3 sm:ml-13 sm:z-10"
+          className="absolute ss:mt-3 ss:ml-4 ss:z-10 sm:mt-3 sm:ml-4 sm:z-10   mm:mt-3 mm:ml-4 mm:z-10  md:mt-3 md:ml-15 md:z-10 "
         />
       </div>
 
@@ -163,10 +163,10 @@ export const Signup = () => {
           <img
             src={arrow}
             alt=""
-            className="relative ss:mt-9 ss:ml-4 ss:w-4  sm:mt-9 sm:ml-4 sm:w-4  "
+            className="relative ss:mt-9 ss:ml-4 ss:w-4  sm:mt-9 sm:ml-4 sm:w-4      mm:mt-9 mm:ml-4 mm:w-4   md:mt-9 md:ml-15 md:w-4 "
           />
         </Link>
-        <h3 className="relative ss:ml-4 ss:mt-4 ss:font-medium ss:text-dark ss:text-left ss:text-base  sm:ml-4 sm:mt-4 sm:font-medium sm:text-dark sm:text-left sm:text-base font-montserrat">
+        <h3 className="relative ss:ml-4 ss:mt-4 ss:font-medium ss:text-dark ss:text-left ss:text-base  sm:ml-4 sm:mt-4 sm:font-medium sm:text-dark sm:text-left sm:text-base     mm:ml-4 mm:mt-4 mm:font-medium mm:text-dark mm:text-left mm:text-base   md:ml-15 md:mt-4 md:font-medium md:text-dark md:text-left md:text-base  font-montserrat ">
           Create Account
         </h3>
       </div>
@@ -182,7 +182,7 @@ export const Signup = () => {
         <div className="flex flex-col">
           <label
             htmlFor="firstname"
-            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left font-montserrat"
+            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left  mm:ml-4 mm:mt-4 mm:text-base mm:text-gray mm:text-left   md:ml-15 md:mt-4 md:text-base md:text-gray md:text-left    font-montserrat"
           >
             Firstname
             <FontAwesomeIcon
@@ -206,7 +206,7 @@ export const Signup = () => {
             aria-describedby="uidnote"
             onFocus={() => setUserFocus(true)}
             onBlur={() => setUserFocus(false)}
-            className="relative ss:ml-4 ss:mt-2 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray font-montserrat"
+            className="relative ss:ml-4 ss:mt-2 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray   mm:ml-4 mm:mt-2 mm:h-6.4 mm:w-21.3 mm:text-base mm:pl-3 mm:pr-3 mm:border mm:rounded mm:border-gray  md:ml-15 md:mt-2 md:h-6.4 md:w-25 md:text-base md:pl-3 md:pr-3 md:border md:rounded md:border-gray  font-montserrat"
           />
 
           <p
@@ -229,7 +229,7 @@ export const Signup = () => {
         <div className="flex flex-col">
           <label
             htmlFor="lastname"
-            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left font-montserrat"
+            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left    mm:ml-4 mm:mt-4 mm:text-base mm:text-gray mm:text-left  md:ml-15 md:mt-4 md:text-base md:text-gray md:text-left    font-montserrat"
           >
             Lastname
             <FontAwesomeIcon
@@ -252,7 +252,7 @@ export const Signup = () => {
             aria-describedby="uidnote"
             onFocus={() => setUsernameFocus(true)}
             onBlur={() => setUsernameFocus(false)}
-            className="relative ss:mt-2  ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray font-montserrat"
+            className="relative ss:mt-2  ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray  mm:ml-4 mm:mt-2 mm:h-6.4 mm:w-21.3 mm:text-base mm:pl-3 mm:pr-3 mm:border mm:rounded mm:border-gray     md:ml-15 md:mt-2 md:h-6.4 md:w-25 md:text-base md:pl-3 md:pr-3 md:border md:rounded md:border-gray   font-montserrat"
           />
 
           <p
@@ -275,7 +275,7 @@ export const Signup = () => {
         <div className="flex flex-col">
           <label
             htmlFor="email"
-            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left font-montserrat"
+            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left  mm:ml-4 mm:mt-4 mm:text-base mm:text-gray mm:text-left   md:ml-15 md:mt-4 md:text-base md:text-gray md:text-left    font-montserrat"
           >
             Email
             <FontAwesomeIcon
@@ -299,7 +299,7 @@ export const Signup = () => {
             aria-describedby="uidnote"
             onFocus={() => setEmailFocus(true)}
             onBlur={() => setEmailFocus(false)}
-            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray font-montserrat"
+            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray   mm:ml-4 mm:mt-2 mm:h-6.4 mm:w-21.3 mm:text-base mm:pl-3 mm:pr-3 mm:border mm:rounded mm:border-gray    md:ml-15 md:mt-2 md:h-6.4 md:w-25 md:text-base md:pl-3 md:pr-3 md:border md:rounded md:border-gray   font-montserrat"
           />
 
           <p
@@ -319,7 +319,7 @@ export const Signup = () => {
         <div className="flex flex-col">
           <label
             htmlFor="phonenumber"
-            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left font-montserrat"
+            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left  mm:ml-4 mm:mt-4 mm:text-base mm:text-gray mm:text-left   md:ml-15 md:mt-4 md:text-base md:text-gray md:text-left      font-montserrat"
           >
             Phone Number
             <FontAwesomeIcon
@@ -343,9 +343,9 @@ export const Signup = () => {
             aria-describedby="uidnote"
             onFocus={() => setNumberFocus(true)}
             onBlur={() => setNumberFocus(false)}
-            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray font-montserrat"
+            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray  mm:ml-4 mm:mt-2 mm:h-6.4 mm:w-21.3 mm:text-base mm:pl-3 mm:pr-3 mm:border mm:rounded mm:border-gray   md:ml-15 md:mt-2 md:h-6.4 md:w-25 md:text-base md:pl-3 md:pr-3 md:border md:rounded md:border-gray   font-montserrat"
           />
-          <h3 className="absolute sm:ml-5.2 sm:mt-8.6 text-sm text-dark text-left font-montserrat">
+          <h3 className="absolute   ss:ml-5.2 ss:mt-8.6 ss:text-sm ss:text-gray ss:text-left       sm:ml-5.2 sm:mt-8.6 sm:text-sm sm:text-gray sm:text-left     mm:ml-5.2 mm:mt-8.6 mm:text-sm mm:text-gray mm:text-left   md:ml-15.2 md:mt-8.6 md:text-sm md:text-gray md:text-left font-montserrat">
             US
           </h3>
 
@@ -367,7 +367,7 @@ export const Signup = () => {
         <div className="flex flex-col">
           <label
             htmlFor="password"
-            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left font-montserrat"
+            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left   mm:ml-4 mm:mt-4 mm:text-base mm:text-gray mm:text-left  md:ml-15 md:mt-4 md:text-base md:text-gray md:text-left font-montserrat"
           >
             Password
             <FontAwesomeIcon
@@ -390,7 +390,7 @@ export const Signup = () => {
             aria-describedby="pwdnote"
             onFocus={() => setPwdFocus(true)}
             onBlur={() => setPwdFocus(false)}
-            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray font-montserrat"
+            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray  mm:ml-4 mm:mt-2 mm:h-6.4 mm:w-21.3 mm:text-base mm:pl-3 mm:pr-3 mm:border mm:rounded mm:border-gray  md:ml-15 md:mt-2 md:h-6.4 md:w-25 md:text-base md:pl-3 md:pr-3 md:border md:rounded md:border-gray  font-montserrat"
           />
 
           <p
@@ -413,7 +413,7 @@ export const Signup = () => {
 
           <span className="items-center" onClick={handleToggle}>
             <Icon
-              className="absolute ss:ml-12 ss:-mt-6.1 ss:z-10 ss:cursor-pointer ss:text-gray    sm:ml-13 sm:-mt-6.1 sm:z-10 sm:cursor-pointer sm:text-gray"
+              className="absolute ss:ml-12 ss:-mt-6.1 ss:z-10 ss:cursor-pointer ss:text-gray    sm:ml-13 sm:-mt-6.1 sm:z-10 sm:cursor-pointer    sm:text-gray   mm:ml-12 mm:-mt-6.1 mm:z-10 mm:cursor-pointer    mm:text-gray   md:ml-14 md:-mt-6.1 md:z-10 md:cursor-pointer    md:text-gray"
               icon={icon}
               size={20}
             />
@@ -423,7 +423,7 @@ export const Signup = () => {
         <div className="flex flex-col">
           <label
             htmlFor="confirm_pwd"
-            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left font-montserrat"
+            className="relative ss:ml-4 ss:mt-4 ss:text-base ss:text-gray ss:text-left   sm:ml-4 sm:mt-4 sm:text-base sm:text-gray sm:text-left  mm:ml-4 mm:mt-4 mm:text-base mm:text-gray mm:text-left  md:ml-15 md:mt-4 md:text-base md:text-gray md:text-left   font-montserrat"
           >
             Confirm Password
             <FontAwesomeIcon
@@ -446,7 +446,7 @@ export const Signup = () => {
             aria-describedby="confirmnote"
             onFocus={() => setMatchFocus(true)}
             onBlur={() => setMatchFocus(false)}
-            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray font-montserrat"
+            className="relative ss:ml-4 ss:h-6.4 ss:w-19.7 ss:text-base ss:pl-3 ss:pr-3 ss:border ss:rounded ss:border-gray      sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base sm:pl-3 sm:pr-3 sm:border sm:rounded sm:border-gray  mm:ml-4 mm:mt-2 mm:h-6.4 mm:w-21.3 mm:text-base mm:pl-3 mm:pr-3 mm:border mm:rounded mm:border-gray   md:ml-15 md:mt-2 md:h-6.4 md:w-25 md:text-base md:pl-3 md:pr-3 md:border md:rounded md:border-gray  font-montserrat"
           />
           <p
             id="confirmnote"
@@ -457,7 +457,7 @@ export const Signup = () => {
           </p>
           <span className="items-center" onClick={handleToggle}>
             <Icon
-              className="absolute  ss:ml-12 ss:-mt-6.1 ss:z-10 ss:cursor-pointer ss:text-gray    sm:ml-13 sm:-mt-6.1 sm:z-10 sm:cursor-pointer sm:text-gray"
+              className="absolute  ss:ml-12 ss:-mt-6.1 ss:z-10 ss:cursor-pointer ss:text-gray    sm:ml-13 sm:-mt-6.1 sm:z-10 sm:cursor-pointer sm:text-gray    mm:ml-12 mm:-mt-6.1 mm:z-10 mm:cursor-pointer    mm:text-gray   md:ml-14 md:-mt-6.1 md:z-10 md:cursor-pointer    md:text-gray  "
               icon={icon}
               size={20}
             />
@@ -467,10 +467,10 @@ export const Signup = () => {
         <div>
           <input
             type="radio"
-            className="relative ml-4 mt-6 float-left"
+            className="relative ss:ml-4 ss:mt-6 ss:float-left  sm:ml-4 sm:mt-6 sm:float-left  mm:ml-4 mm:mt-6 mm:float-left  md:ml-15 md:mt-5 md:float-left"
             onClick={() => setLogin(LoginType.LOGIN)}
           />
-          <h3 className="absolute  ss:ml-6.5 ss:mt-4.7 ss:text-sm ss:text-dark ss:text-left ss:max-w-19.5    sm:ml-6.5 sm:mt-4.7 sm:text-sm sm:text-dark sm:text-left sm:max-w-19.5 font-montserrat">
+          <h3 className="absolute  ss:ml-6.5 ss:mt-4.7 ss:text-sm ss:text-dark ss:text-left ss:max-w-19.5    sm:ml-6.5 sm:mt-4.7 sm:text-sm sm:text-dark sm:text-left sm:max-w-19.5    mm:ml-6.5 mm:mt-4.7 mm:text-sm mm:text-dark mm:text-left mm:max-w-19.5  md:ml-16 md:mt-4.7 md:text-sm md:text-dark md:text-left md:max-w-30   font-montserrat">
             I agree to the
             <span className="text-green font-semibold underline">
               {" "}
@@ -487,7 +487,7 @@ export const Signup = () => {
           //disabled={!firstnameIsValid || !lastnameIsValid || !validEmail || !validPwd || !validMatch ? true : false}
           type="submit"
           onClick={signUp}
-          className="relative ss:mt-7 ss:ml-4 ss:h-6.4 ss:w-19.4 ss:bg-green ss:text-white ss:text-base ss:rounded ss:disabled:bg-gray-lighter ss:disabled:text-gray    sm:mt-9.5 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 sm:bg-green sm:text-white sm:text-base sm:rounded sm:disabled:bg-gray-lighter sm:disabled:text-gray font-montserrat"
+          className="relative ss:mt-7 ss:ml-4 ss:h-6.4 ss:w-19.4 ss:bg-green ss:text-white ss:text-base ss:rounded ss:disabled:bg-gray-lighter ss:disabled:text-gray    sm:mt-9.5 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 sm:bg-green sm:text-white sm:text-base sm:rounded sm:disabled:bg-gray-lighter sm:disabled:text-gray mm:mt-9.5 mm:-ml-6.5 mm:h-6.4 mm:w-21.3 mm:bg-green mm:text-white mm:text-base mm:rounded mm:disabled:bg-gray-lighter mm:disabled:text-gray  md:mt-9.5 md:-ml-17 md:h-6.4 md:w-25 md:bg-green md:text-white md:text-base md:rounded md:disabled:bg-gray-lighter md:disabled:text-gray   font-montserrat"
           disabled={login == null}
         >
           Create Account
@@ -496,9 +496,9 @@ export const Signup = () => {
       </form>
 
       <div>
-        <h3 className="relative ss:mt-4 ss:text-dark ss:text-sm     sm:mt-4 sm:text-dark sm:text-sm font-montserrat">
+        <h3 className="relative ss:mt-4 ss:text-dark ss:text-sm     sm:mt-4 sm:text-dark sm:text-sm  mm:mt-4 mm:text-dark mm:text-sm   md:mt-4 md:text-dark md:text-sm md:-ml-9  font-montserrat">
           Already have an account?
-          <span className=" ss:text-green ss:font-semibold ss:cursor-pointer   sm:text-green sm:font-semibold sm:cursor-pointer">
+          <span className=" ss:text-green ss:font-semibold ss:cursor-pointer   sm:text-green sm:font-semibold sm:cursor-pointer  mm:text-green mm:font-semibold mm:cursor-pointer   md:text-green md:font-semibold md:cursor-pointer ">
             <Link to="/login"> Login</Link>
           </span>
         </h3>
