@@ -677,7 +677,7 @@ export const Aboutus = () => {
         <div className="relative ss:ml-3 ss:mr-3 ss:mt-9 ss:h-19.5 ss:w-20.4  ss:rounded-2xl     sm:ml-5 sm:mt-9 sm:h-19.5 sm:w-20.4 bg-green sm:rounded-2xl   md:ml-5 md:mr-5  md:mt-9 md:h-19.5 md:w-45  md:rounded-2xl    x:ml-6 x:mr-5  x:mt-9 x:h-19.5 x:w-80  x:rounded-2xl         xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
           <img
             src={faq_styled}
-            className="absolute sm:mt-0 ss:ml-19.17 ss:h-19.5 ss:rounded-tr-2xl   sm:mt-0 sm:ml-19.17 sm:h-19.5 sm:rounded-tr-2xl   sm:mt-0 md:ml-41 md:h-19.5 md:rounded-tr-3xl  x:ml-70 x:h-19.5 x:rounded-tr-5xl  x:rounded-br-3xl x:w-15      xl:ml-66.2 xl:w-17 xl:rounded-tr-3xl xl:rounded-br-3xl"
+            className="absolute sm:mt-0 ss:ml-19.17 ss:h-19.5 ss:rounded-tr-2xl   sm:mt-0 sm:ml-19.17 sm:h-19.5 sm:rounded-tr-2xl   sm:mt-0 md:ml-41 md:h-19.5 md:rounded-tr-3xl md:rounded-br-3xl    x:ml-70 x:h-19.5 x:rounded-tr-5xl  x:rounded-br-3xl x:w-15      xl:ml-66.2 xl:w-17 xl:rounded-tr-3xl xl:rounded-br-3xl"
           />
           <h3 className="relative ss:pt-8 ss:ml-4 ss:max-w-16  ss:text-xl        sm:pt-8 sm:ml-4 sm:max-w-16 text-left text-white sm:text-xl  md:pt-8 md:ml-4 md:max-w-30  md:text-xl   x:pt-8 x:ml-10 x:max-w-30  x:text-2xl   font-bold font-montserrat xl:text-5xl xl:pt-8 xl:ml-10 xl:max-w-55">
             Get PickBetta for just $10 a week
