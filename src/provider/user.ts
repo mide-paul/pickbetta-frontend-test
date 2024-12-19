@@ -7,7 +7,7 @@ class UserProvider{
     options: object;
 
     constructor(){
-        this.apiUrl = import.meta.env.VITE_API_URL;
+        this.apiUrl = "https://pickbetta-user-service-mmkpr.ondigitalocean.app/api/auth";
         this.options = {
             headers: {
                 "Content-Type": "application/json"
@@ -17,18 +17,18 @@ class UserProvider{
 
     async login(user: UserDataStruct) : Promise<AuthResponse>{
         try {
-            const res = await axios.post(`${this.apiUrl}/user/auth`, {
+            const res = await axios.post(`${this.apiUrl}/login`, {
                 email: user.email,
                 password: user.password,
             }, this.options);
             
             // check if the response code is 200 OK
             if(res.status == 200){
-                const username = "";
+                const firstname = "";
                 return {
                     status: true,
-                    message: `Welcome back ${username}`,
-                    data: res.data
+                    message: `Welcome back ${firstname}`,
+                    // data: res.data
                 }
             }
 
@@ -44,10 +44,11 @@ class UserProvider{
         }
     }
 
-    async register({ userName, email, password }: UserDataStruct) : Promise<AuthResponse>{
+    async register({ firstName, lastName, email, password }: UserDataStruct) : Promise<AuthResponse>{
         try {
             const res = await axios.post(`${this.apiUrl}/user/auth/register`, {
-                userName,
+                firstName,
+                lastName,
                 email,
                 password
             }, this.options);

@@ -1,1 +1,1 @@
-//export const apiLink = "https://walrus-app-9gqab.ondigitalocean.app/api#/Internal%20Book%20apis/InternalBookController_create"
+//export const apiLink = "https://pickbetta-user-service-mmkpr.ondigitalocean.app"

@@ -18,9 +18,9 @@ interface IAuth {
 	isLoading: boolean;
 	isAuthenticated: boolean;
 	signup: (email: string, password: string, firstname: string, lastname: string, phone: string) => Promise<void>;
-	login: (companyEmail: string, password: string) => Promise<void>;
-	//verifyEmail: (code: any) => Promise<void>;
-	verifyOtp: (code: any) => Promise<void>;
+	login: (email: string, password: string) => Promise<void>;
+	verifyEmail: (email: string) => Promise<void>;
+	verifyOtp: (otp: any, email: any) => Promise<void>;
 	isCheckingAuth: boolean;
 	//checkAuth: () => Promise<void>;
 	firstname: string | null;
@@ -72,21 +72,21 @@ export const useAuthStore = create<IAuth>((set) => ({
 	// 		throw error;
 	// 	}
 	// },
-	// verifyEmail: async (code: any) => {
-	// 	set({ isLoading: true, error: null });
-	// 	try {
-	// 		const response = await axios.post(`${API_URL}/api/verify/email`, { code });
-	// 		set({ user: response.data.user, isAuthenticated: true, isLoading: false });
-	// 		return response.data;
-	// 	} catch (error: any) {
-	// 		set({ error: error.response.data.message || "Error verifying email", isLoading: false });
-	// 		throw error;
-	// 	}
-	// },
-	verifyOtp: async (code: any) => {
+	verifyEmail: async (email: any) => {
 		set({ isLoading: true, error: null });
 		try {
-			const response = await axios.post(`${API_URL}/api/verify/otp`, { code });
+			const response = await axios.post(`${API_URL}/api/verify/email`, { email });
+			set({ user: response.data.user, isAuthenticated: true, isLoading: false });
+			return response.data;
+		} catch (error: any) {
+			set({ error: error.response.data.message || "Error verifying email", isLoading: false });
+			throw error;
+		}
+	},
+	verifyOtp: async (otp: any, email:any) => {
+		set({ isLoading: true, error: null });
+		try {
+			const response = await axios.post(`${API_URL}/api/verify/otp`, { otp, email });
 			set({ user: response.data.user, isAuthenticated: true, isLoading: false });
 			return response.data;
 		} catch (error: any) {

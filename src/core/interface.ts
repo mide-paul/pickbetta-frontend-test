@@ -1,9 +1,13 @@
-import { UserDataStruct } from "./struct";
-
-interface AuthResponse{
-    status: boolean,
-    message: string,
-    data?: UserDataStruct,
+interface Nfl {
+    TeamID: number;
+    PlayerID: number;
+    City: string;
+    FullName: string;
 }
 
-export type { AuthResponse }
+interface AuthResponse {
+    status: boolean;
+    message: string;
+}
+
+export type { Nfl, AuthResponse };

@@ -8,16 +8,20 @@ export default {
     
   ],
   prefix: "",
-  theme: { 
+  theme: {
     screens: {
       ss: "320px", // small screen
       sm: "375px", // medium screen
-      mm: "425px",  // mobile medium 
       md: "768px", // tablet screen
       // lg: "976px", 
       x:  "1024px", // laptop medium
-      xx: "1500px", 
+      x1:  "1280px", // laptop medium
       xl: "1440px", // Desktop
+      xx: "1500px", 
+      xx1: "1600px",
+      xx2: "1750px", 
+      xxl: "1920px",
+      xx3: "2050px",
     },
     colors: {
       "white": "#ffffff",

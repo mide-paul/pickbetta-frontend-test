@@ -7,11 +7,11 @@ import hockey from './../assets/icons/hockey.png'
 export const Bettadeepdive = () => {
     return (
         <div className="relative sm:h-40 sm:w-full bg-gray-white">
-            <div className='border border-gray sm:h-8 sm:w-full'>
-            <h3 className='relative sm:-mt-4.5 font-bold sm:text-center sm:text-green sm:text-base font-montserrat'><span className='text-orange-light'>Betta</span> Deep Dive</h3>
+            <div className='border border-gray sm:bg-green sm:h-8 sm:w-full'>
+            <h3 className='relative sm:mt-4.5 sm:ml-7 font-semibold sm:text-left sm:text-white sm:text-base font-montserrat'><span className='text-gold'>Betta</span> Deep Dive</h3>
             </div>
 
-            <Link to='/homesignedin'><img src={arrow} alt="" className='absolute sm:-mt-6.5 sm:ml-4' /></Link>
+            <Link to='/homesignedin'><img src={arrow} alt="" className='absolute sm:-mt-6.5 sm:ml-4 sm:h-5 sm:w-5 sm:p-0.3 sm:bg-white sm:rounded-full' /></Link>
 
             <div className='flex sm:flex-wrap'>
                 <Link to='/nfldeepdive'>

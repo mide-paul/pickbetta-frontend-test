@@ -33,7 +33,7 @@
   background-color: #ffffff;
   position: relative;
   width: 100%;
-  height: 11510px;
+  height: 5240px;
   overflow: hidden;
 }
 
@@ -53,12 +53,20 @@
   overflow: hidden;
 }
 
+.pricing {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 10000px;
+  overflow: hidden;
+}
+
 body {
   font-family: 'Montserrat' 'Inter' 'poppins';
 }
 
 .mobile-footer {
-  height: 49rem;
+  height: 38rem;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -117,7 +125,219 @@ body {
   display: inline-block;
 }
 
-@media screen and (min-width: 1440px) and (max-width: 2000px) {
+
+@media screen and (min-width: 320px) and (max-width: 374px){
+  .home{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 5290px;
+    overflow: hidden;
+  }
+
+  .mobile-footer {
+    height: 42rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #06543C;
+    border-radius: 0px;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 10190px;
+    overflow: hidden;
+    }
+
+    .privacy{
+      height: 9750px;
+      width: 100%;
+    }    
+
+    .terms {
+      height: 13800px;
+      width: 100%;
+    }
+
+    .pricing {
+      height: 1900px;
+      width: 100%;
+    }      
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+  .home{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4950px;
+    overflow: hidden;
+  }
+
+  .mobile-footer {
+    height: 42rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #06543C;
+    border-radius: 0px;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 11700px;
+    overflow: hidden;
+    }
+
+    .privacy{
+      height: 8250px;
+      width: 100%;
+    }      
+
+    .terms {
+      height: 11650px;
+      width: 100%;
+    }
+
+    .pricing {
+      height: 2000px;
+      width: 100%;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .home{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 5200px;
+    overflow: hidden;
+  }
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 6700px;
+    overflow: hidden;
+  }  
+
+  .privacy{
+    height: 5550px;
+    width: 100%;
+  }     
+
+  .terms {
+    height: 7950px;
+    width: 100%;
+  }
+
+  .pricing {
+    height: 2050px;
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .home{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4700px;
+    overflow: hidden;
+  }
+
+  .mobile-footer{
+    height: 26rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #06543C;
+    border-radius: 0px;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 7100px;
+    overflow: hidden;
+  }    
+
+  .privacy{
+    height: 4250px;
+    width: 100%;
+  }    
+
+  .terms {
+    height: 6300px;
+    width: 100%;
+  }
+
+  .pricing {
+    height: 1250px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px){
+  .home{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4400px;
+    overflow: hidden;
+  }
+
+  .mobile-footer{
+    height: 26rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #06543C;
+    border-radius: 0px;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 6250px;
+    overflow: hidden;
+  }    
+
+  .privacy{
+    height: 3850px;
+    width: 100%;
+  }  
+
+  .terms {
+    height: 5600px;
+    width: 100%;
+  }
+
+  .pricing {
+    height: 1200px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
   .mobile-footer {
     height: 26rem;
     top: 0px;
@@ -129,162 +349,171 @@ body {
     overflow: hidden;
   }
 
-
-
   .home {
     background-color: #ffffff;
     position: relative;
     width: 100%;
-    height: 3910px;
+    height: 4090px;
     overflow: hidden;
   }
 
   .about {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 5590px;
-  overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 6250px;
+    overflow: hidden;
   }
 
   .pricing{
-    height: 1230px;
+    height: 1300px;
     width: 100%;
   }
 
   .privacy{
-    height: 5700px;
+    height: 3850px;
     width: 100%;
   }
 
   .terms {
-    height: 7980px;
+    height: 5750px;
     width: 100%;
   }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px){
+@media screen and (min-width: 1600px) and (max-width: 1749px) {
+  .home {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4290px;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 5500px;
+    overflow: hidden;
+  }  
+
+  .privacy{
+    height: 3650px;
+    width: 100%;
+  }
+
+  .terms {
+    height: 5450px;
+    width: 100%;
+  }
+
+  .pricing{
+    height: 1300px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1750px) and (max-width: 1919px) {
+  .home {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4490px;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 5350px;
+    overflow: hidden;
+  }   
+
+  .privacy{
+    height: 3500px;
+    width: 100%;
+  }
+
+  .terms {
+    height: 5130px;
+    width: 100%;
+  }
+
+  .pricing{
+    height: 1300px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2000px) {
+  .home {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4650px;
+    overflow: hidden;
+  }
+
+  .privacy{
+    height: 3400px;
+    width: 100%;
+  }
+
+  .terms {
+    height: 4980px;
+    width: 100%;
+  }  
+
+  .pricing{
+    height: 1300px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2560px) {
   .home{
     background-color: #ffffff;
     position: relative;
     width: 100%;
-    height: 4900px;
+    height: 4640px;
     overflow: hidden;
   }
 
-  .privacy {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 8600px;
-  overflow: hidden;
-}
-
   .about {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 11530px;
-  overflow: hidden;
-  }
-
-  .terms {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 8310px;
-  overflow: hidden;
-}
-}
-
-
-@media screen and (min-width: 375px) and (max-width: 767px){
-
-
-  .privacy {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 11730px;
-  overflow: hidden;
-}
-
-
-
-
-
-  .about {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 11460px;
-  overflow: hidden;
-  }
-
-  .terms {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 7290px;
-  overflow: hidden;
-}
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1439px){
-  .home{
     background-color: #ffffff;
     position: relative;
     width: 100%;
-    height: 3420px; 
+    height: 5000px;
     overflow: hidden;
-  }
+    }
 
-  .mobile-footer{
-      height: 26rem;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: #06543C;
-    border-radius: 0px;
-    z-index: 0;
-    overflow: hidden;
-  }
+    .mobile-footer {
+      height: 40rem;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      background-color: #06543C;
+      border-radius: 0px;
+      z-index: 0;
+      overflow: hidden;
+    }
 
-  .privacy {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 4490px;
-  overflow: hidden;
+    .privacy{
+      height: 3400px;
+      width: 100%;
+    }
+  
+    .terms {
+      height: 4920px;
+      width: 100%;
+    }      
+
+    .pricing{
+      height: 1300px;
+      width: 100%;
+    }
 }
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .home{
-    background-color: #ffffff;
-    position: relative;
-    width: 100%;
-    height: 5650px;
-    overflow: hidden;
-  }
-
-   .about {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 8100px;
-  overflow: hidden;
-  }
-
-    .privacy {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
-  height: 7290px;
-  overflow: hidden;
-}
-}
-
 

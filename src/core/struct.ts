@@ -1,5 +1,6 @@
 interface UserDataStruct{
-    userName: string,
+    firstName: string,
+    lastName: string,
     email: string,
     tel?: string,
     password?: string;

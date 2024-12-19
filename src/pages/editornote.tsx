@@ -5,9 +5,9 @@ import editor_image from './../assets/images/editor_image.png'
 export const Editornote = () => {
     return (
         <div className='relative sm:h-65 sm:w-full sm:bg-white'>
-            <div className='border border-gray sm:h-8 sm:w-full'>
-            <Link to='/homesignedin'><img src={arrow} alt="" className='relative sm:mt-4 sm:ml-4' /></Link>
-            <h3 className='relative sm:-mt-4.7 font-bold sm:text-center sm:text-dark sm:text-base font-montserrat'>Editor's Note</h3>
+            <div className='border border-gray sm:bg-green sm:h-8 sm:w-full'>
+            <Link to='/homesignedin'><img src={arrow} alt="" className='relative sm:mt-4 sm:ml-4 sm:h-5 sm:w-5 sm:p-0.3 sm:bg-white sm:rounded-full' /></Link>
+            <h3 className='relative sm:-mt-4.6 sm:ml-7.5 font-semibold sm:text-left sm:text-white sm:text-base font-montserrat'><span className='ss:text-gold sm:text-gold'>Editor's</span> Note</h3>
             </div>
 
             <div>
